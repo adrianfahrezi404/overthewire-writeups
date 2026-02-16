@@ -18,3 +18,5 @@ Note: Flag -u berarti hanya tampilkan baris yang unik.
 
 - Piping ( | ): Konsep fundamental Linux untuk mengoper output dari satu perintah menjadi input untuk perintah berikutnya.
 - Sort & Uniq: Kombinasi klasik untuk analisis data statistik sederhana di CLI.
+
+[⬅️ Back To Home](../README.md)
