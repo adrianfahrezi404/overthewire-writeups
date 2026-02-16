@@ -18,3 +18,5 @@ cat ./"...Hiding-From-You"
 
 - Hidden Files: Konsep file yang diawali titik (.) di Linux (seperti .bashrc, .git) yang disembunyikan secara default agar direktori terlihat bersih.
 - Ls Flags: Penggunaan opsi -la (list all + long format) adalah standar untuk inspeksi direktori secara menyeluruh.
+
+[⬅️ Back To Home](../README.md)
