@@ -27,3 +27,5 @@ cat ./-file07
 ## 💡 What I Learned
 
 - File Signatures: Ekstensi di Linux tidak menentukan isi file. Perintah file sangat krusial untuk menentukan jenis data (berdasarkan Magic Numbers) sebelum kita membukanya.
+
+[⬅️ Back To Home](../README.md)
