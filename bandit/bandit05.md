@@ -24,3 +24,5 @@ cat ./maybehere07/.file2
 
 ## 💡 What I Learned
 - Automation with find: Perintah ini adalah tool fundamental bagi SysAdmin untuk mencari file berdasarkan metadata (ukuran, tanggal, permission, user) tanpa harus mengetahui nama filenya.
+
+[⬅️ Back To Home](../README.md)
