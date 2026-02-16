@@ -17,7 +17,7 @@ Atau menggunakan path lengkap:
 cat /home/bandit1/-
 ```
 
-💡 What I Learned
+## 💡 What I Learned
 
     Dash (-) Ambiguity: Memahami bagaimana shell menangani karakter spesial.
 
