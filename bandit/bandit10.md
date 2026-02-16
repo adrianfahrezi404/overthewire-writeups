@@ -20,3 +20,5 @@ cat data.txt | base64 --decode
 ## 💡 What I Learned
 - Encoding vs Encryption: Base64 bukan enkripsi (pengamanan), melainkan encoding (representasi data) agar data biner aman dikirim melalui media teks (seperti email atau URL).
 - Decoding: Proses mengembalikan data encoded ke format aslinya.
+
+  [⬅️ Back To Home](../README.md)
