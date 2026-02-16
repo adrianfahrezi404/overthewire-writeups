@@ -20,3 +20,5 @@ cat /home/bandit1/-
 ## 💡 What I Learned
 - Dash (-) Ambiguity: Memahami bagaimana shell menangani karakter spesial.
 -  Relative Path (./): Teknik menunjuk file di direktori saat ini secara eksplisit untuk menghindari ambiguitas argumen perintah.
+
+[⬅️ Back To Home](../README.md)
