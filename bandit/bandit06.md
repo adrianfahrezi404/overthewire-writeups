@@ -28,3 +28,5 @@ cat /var/lib/dpkg/info/bandit7.password
 
 - Standard Error Redirection (2>): Di Linux, stream 2 adalah error. Mengarahkannya ke /dev/null sangat berguna untuk menyembunyikan pesan sampah saat melakukan scanning sistem.
 - Root Search: Perintah find / memungkinkan pencarian global di seluruh hirarki file sistem.
+
+[⬅️ Back To Home](../README.md)
