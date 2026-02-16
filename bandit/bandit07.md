@@ -15,3 +15,5 @@ grep "millionth" data.txt
 ## 💡 What I Learned
 
 - Grep (Global Regular Expression Print): Salah satu tool paling kuat di Linux untuk mencari pola teks (pattern matching) di dalam file atau output perintah
+
+[⬅️ Back To Home](../README.md)
