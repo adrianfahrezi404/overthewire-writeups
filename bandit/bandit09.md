@@ -17,3 +17,5 @@ Hasilnya menunjukkan beberapa baris, dan saya mengambil teks di sebelah tanda ==
 
 - Binary vs Text: Memahami bahwa file biner mengandung instruksi mesin yang tidak bisa dibaca langsung.
 - Strings Command: Alat forensik dasar untuk mengintip isi file biner (biasanya dipakai untuk analisis malware atau reverse engineering sederhana).
+
+[⬅️ Back To Home](../README.md)
