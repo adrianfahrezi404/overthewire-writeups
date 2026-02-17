@@ -9,7 +9,7 @@ Di Linux, spasi berfungsi sebagai pemisah antar argumen perintah. Jika saya meng
 
 Solusi 1: Menggunakan tanda kutip (*Escaping*):
 ```bash
-cat "spaces in this filename"
+cat ./"--spaces in this filename--"
 ```
 
 Solusi 2: Menggunakan Backslash (biasanya otomatis muncul saat menekan tombol TAB):
