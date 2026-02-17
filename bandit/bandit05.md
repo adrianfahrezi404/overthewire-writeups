@@ -19,7 +19,7 @@ Note: c suffix berarti bytes.
 
 Perintah tersebut langsung mengembalikan satu lokasi file yang cocok (misal: ./maybehere07/.file2). Saya kemudian membaca isinya:
 ```Bash
-cat ./maybehere07/.file2
+cat ./inhere/maybehere07/.file2
 ```
 
 ## 💡 What I Learned
