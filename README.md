@@ -6,47 +6,58 @@
 
 ## 🕵️‍♂️ About This Repository
 
-Repository ini berfungsi sebagai **Learning Journal** dan dokumentasi teknis saya dalam menyelesaikan tantangan *Capture The Flag* (CTF) dari [OverTheWire](https://overthewire.org/).
+Repository ini berfungsi sebagai **Learning Journal** dan dokumentasi teknis saya dalam menyelesaikan tantangan *Capture The Flag* (CTF) dari [OverTheWire](https://overthewire.org/). 
 
-Proyek ini dikerjakan untuk mengasah kemampuan dalam:
-* **Linux System Administration** (Permissions, Piping, User Mgmt)
-* **Bash Scripting & Automation**
-* **Security Concepts** (SSH, Encryption, Encoding)
+Proyek ini awalnya dimulai sebagai bagian dari tugas beasiswa, namun kini sepenuhnya menjadi wadah pembelajaran otodidak saya untuk mengasah insting dan kemampuan fundamental dalam *Cyber Security*.
+
+Fokus utama pembelajaran:
+* **Linux System Administration & Enumeration**
+* **Bash Scripting, Automation & Data Manipulation**
+* **Security Concepts** (Privilege Escalation, SSH, Version Control, Cryptography)
 
 > *"The best way to learn is by doing (and documenting)."*
 
 ---
 
 ## 🛠️ Tools & Arsenal
-Perintah dan *tools* yang sering digunakan dalam penyelesaian tantangan ini:
-`ssh` `grep` `find` `cat` `base64` `openssl` `nc` `git`
+Kumpulan perintah dan *tools* yang saya kuasai selama menembus tantangan di server ini:
+`ssh` `grep` `awk` `sed` `find` `tar` `tr` `base64` `openssl` `nc` `nmap` `git`
 
 ---
 
 ## 📊 Challenges & Progress Matrix
 
-Berikut adalah status pengerjaan level wargame. Klik nama level untuk melihat detail *write-up* dan solusinya.
+Berikut adalah *dashboard* status pengerjaan wargame saya. Klik pada tautan (jika sudah tersedia) untuk melihat detail metodologi dan *write-up* penyelesaiannya.
 
-### 🟢 Bandit (Linux Fundamentals)
-*Target: Level 0 - 34*
+### 🟢 Bandit (Linux Fundamentals & Red Teaming Basics)
+*Status: **100% COMPLETED** (Level 0 - 34) 🏆*
 
-| Level Range | Status | Key Concepts Learned | Solution Link |
+| Level Range | Status | Key Concepts Learned | Write-up Link |
 | :--- | :---: | :--- | :---: |
-| **Level 0 → 5** | ✅ Done | SSH, File types, Hidden files, `find` | [View Logs](bandit00.md) |
-| **Level 6 → 10** | 🚧 WIP | File ownership, `grep`, data piping | *Coming Soon* |
-| **Level 11 → 20** | 🔒 Locked | Compression, Network connections | *Locked* |
-| **Level 21 → 34** | 🔒 Locked | Cronjobs, Shell scripting, Git | *Locked* |
+| **Level 0 → 5** | ✅ Done | SSH, File types, Hidden files, `find` | [View Logs](./bandit/level00-05.md) |
+| **Level 6 → 10** | ✅ Done | File ownership, `grep`, data piping, encoding | [View Logs](./bandit/level06-10.md) |
+| **Level 11 → 20** | ✅ Done | Compression, Hexdumps, Network sockets (`nc`, `openssl`) | [View Logs](./bandit/level11-20.md) |
+| **Level 21 → 26** | ✅ Done | Cronjobs, Shell scripting, Pager breakout, Network restriction bypass | [View Logs](./bandit/level21-26.md) |
+| **Level 27 → 34** | ✅ Done | SUID Privilege Escalation, Git Enumeration, Restricted Shell Escape | [View Logs](./bandit/level27-34.md) |
 
 <br>
 
-### 🗺️ Roadmap (Future Wargames)
+### 🚀 Self-Taught Journey (The Roadmap)
+Perjalanan otodidak mengupas berbagai lapisan keamanan dari sisi Web, Kriptografi, hingga Eksploitasi *Binary*.
 
-| Wargame | Difficulty | Status | Description |
-| :--- | :---: | :---: | :--- |
-| **Leviathan** | ⭐⭐ | ⏳ | Linux basics, permissions, SUID |
-| **Natas** | ⭐⭐ | ⏳ | Web Security (Server-side) |
-| **Krypton** | ⭐⭐ | ⏳ | Cryptography & Encryption |
-| **Narnia** | ⭐⭐⭐ | ⏳ | Binary Exploitation |
+| Wargame | Progress | Focus Area | Walkthrough Link |
+| :--- | :---: | :--- | :--- |
+| **Leviathan** | 🚧 WIP | Linux Basics, Permissions, SUID | [Leviathan Walkthrough](./leviathan/README.md) |
+| **Natas** | ❌ | Web Security (Server-side) | *Not Started* |
+| **Krypton** | ❌ | Cryptography & Ciphers | *Not Started* |
+| **Narnia** | ❌ | Binary Exploitation (Memory Corruption) | *Not Started* |
+| **Behemoth** | ❌ | Binary Exploitation | *Not Started* |
+| **Utumno** | ❌ | Advanced Binary Exploitation | *Not Started* |
+| **Maze** | ❌ | Binary Exploitation | *Not Started* |
+| **Vortex** | ❌ | Network & Binary Exploitation | *Not Started* |
+
+**Keterangan Status:**
+✅ = Selesai  |  🚧 = Sedang Dikerjakan (In Progress)  |  ❌ = Belum Dimulai
 
 ---
 
@@ -56,8 +67,8 @@ Berikut adalah status pengerjaan level wargame. Klik nama level untuk melihat de
 Sesuai dengan etika komunitas OverTheWire, seluruh password atau *flag* sensitif dalam dokumentasi ini telah disensor (**REDACTED**).
 
 Tujuannya adalah:
-1.  Menghormati aturan main OverTheWire.
-2.  Mendorong pembaca untuk mencoba sendiri tantangannya.
+1. Menghormati aturan main OverTheWire.
+2. Mendorong pembaca untuk mencoba sendiri tantangannya tanpa mendapat *spoiler* instan.
 
 ---
 
